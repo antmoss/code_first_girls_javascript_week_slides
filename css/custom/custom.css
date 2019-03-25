@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.reveal ol[type="a"] {
+  list-style-type: lower-alpha !important; }
+
+.reveal .recap-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  justify-content: space-between; }
+  .reveal .recap-list__item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-transform: uppercase; }
+    .reveal .recap-list__item + .recap-list__item {
+      padding-left: 20px; }
+  .reveal .recap-list__item span {
+    font-size: 30px;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    text-align: center; }
+  .reveal .recap-list__item i {
+    font-size: 50px; }
+  .reveal .recap-list__item img {
+    border: 0;
+    box-shadow: none;
+    width: 50px;
+    margin: 0;
+    align-self: center; }
+  .reveal .recap-list__item:nth-child(1) i {
+    color: #f16529; }
+  .reveal .recap-list__item:nth-child(2) i {
+    color: #33a9dc; }
+  .reveal .recap-list__item:nth-child(3) i {
+    color: #e438e4; }
+  .reveal .recap-list__item:nth-child(4) i {
+    color: #6ce46c; }
+  .reveal .recap-list__item:nth-child(6) i {
+    color: #f0db50; }
+
+#week-6,
+#recap,
+#task,
+#back-to-our-bootstrap-project,
+h3 {
+  color: #f0db50 !important; }
+
+.js--recap ul li:nth-child(6) {
+  color: #f0db50; }
+
+.js--what ol li:nth-child(3) {
+  color: #f0db50; }
+
+.js--versions ul li:nth-child(2) {
+  color: #f0db50; }
+
+.task--expressions {
+  color: #fff; }
+
+.fixing-navbar {
+  display: flex;
+  text-align: left; }
+  .fixing-navbar__col {
+    width: 50%; }
+
+/*# sourceMappingURL=custom.css.map */
